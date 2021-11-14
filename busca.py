@@ -18,6 +18,6 @@ if __name__ == '__main__':
     assert buscador_sequencial(lista, 19999990) == 19999989
     assert buscador_sequencial(lista, 999999999) == -1
     
-    print(f"demorou {time.time() - agora} segundos")
+    print(f"demorou {time.time() - agora} segundos na busca sequencial")
 
 
