@@ -12,10 +12,10 @@ def buscador_sequencial(lista, valor):
 
 
 if __name__ == '__main__':
-    lista = [numero for numero in range(99999999)]
+    lista = [numero for numero in range(19999999)]
     agora = time.time()
     
-    assert buscador_sequencial(lista, 99999990) == True
+    assert buscador_sequencial(lista, 19999990) == True
     assert buscador_sequencial(lista, 999999999) == False
     
     print(f"demorou {time.time() - agora} segundos")
